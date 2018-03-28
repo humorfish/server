@@ -1,0 +1,8 @@
+{
+    "IoT":
+    {
+        "Addr": "mqtt://www.iqi1.com:18843",
+        "UserName": "ultracreation",
+        "Password": "dasboot121212"
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "compilerOptions":
+  {
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+
+      "target": "es2016",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "outDir": "./build",
+
+      "strict": true,
+      "noImplicitThis": true,
+      "alwaysStrict": true,
+      "noUnusedLocals": true,
+      "strictNullChecks": false,
+      "noImplicitReturns": false
+  },
+
+  "include": [
+      "src/**/*.ts"
+  ],
+  "exclude": [
+      "node_modules",
+      "**/cordova.*.ts",
+      "src/UltraCreation/ng-ion/**/*.ts",
+      "src/UltraCreation/Native/**/*.ts"
+  ]
+}
